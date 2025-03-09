@@ -1,0 +1,30 @@
+---
+compiled_package_info:
+  package_name: simple_counter
+  address_alias_instantiation:
+    simple_counter: "0000000000000000000000000000000000000000000000000000000000000000"
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+  source_digest: 035BBD5951614898E8EF4C6BC6771E76E1F15E4DD7CBA7BE88FE046100330AC8
+  build_flags:
+    dev_mode: true
+    test_mode: true
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    json_errors: false
+    additional_named_addresses: {}
+    lint_flag:
+      no_lint: false
+      lint: false
+dependencies:
+  - MoveStdlib
+  - Sui
